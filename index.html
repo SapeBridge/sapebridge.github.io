@@ -14,23 +14,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SapeBridge - Simple, Secure File Delivery for Amadeus</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="sapebridge_logo.png">
 </head>
 <body>
     
     <header>
         <div class="container">
-            <div class="logo">SapeBridge</div>
+                <div class="logo">
+                    <img src="sapebridge_logo.png" alt="SapeBridge Logo" style="height:70px; vertical-align:middle; margin-right:15px;">
+                    <span style="vertical-align:middle; font-size:1.5em; font-weight:bold;">SapeBridge</span>
+                </div>
             <nav>
-                <a href="#problem">The Problem</a>
-                <a href="#solution">Our Solution</a>
-                <a href="#pricing">Pricing</a>
+                 <a href="#problem">The Problem</a>
+                 <a href="#solution">Our Solution</a>
+                 <a href="#faq">FAQ</a>
+                 <a href="#pricing">Pricing</a>
             </nav>
         </div>
     </header>
 
     <section class="hero">
         <div class="container">
-            <h1>Keep Your SAPE Workflow. Meet the SFTP Requirement.</h1>
+                <div style="text-align:center; margin-bottom:30px;">
+                    <img src="sapebridge_logo.png" alt="SapeBridge Logo Large" style="height:160px; max-width:100%;">
+                </div>
+            <h1>Seamlessly Transition to Amadeus's SFTP File Delivery</h1>
             <p class="subtitle">SapeBridge connects Amadeus's new SFTP system directly to your local computers, so you can keep your workflow without managing a server. With a quick and easy onboarding process, enterprise-grade reliability, and end-to-end encryption, we make compliance simple and secure.</p>
             <a href="#waitlist" class="cta-button">Join the Founder's Program</a>
         </div>
@@ -72,8 +80,38 @@
             </div>
         </div>
     </section>
-
-    <section id="pricing" class="feature">
+    <section class="faq feature" id="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3>What is Amadeus's new SFTP requirement for AIR files?</h3>
+                    <p>Amadeus now requires travel agencies to use SFTP for delivering AIR and/or IMR files, replacing the previous SAPE polling method. This change means agencies must adapt to a new technical process for file delivery.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do I need to set up and host my own SFTP server?</h3>
+                    <p>No. SapeBridge eliminates the need for agencies to set up, host, or maintain an SFTP server. Our solution connects Amadeus's SFTP system directly to your local computers, saving you time and technical headaches.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Will my agency's workflow change with SapeBridge?</h3>
+                    <p>No. Your agents can continue generating AIR files as usual by issuing the INV command in Amadeus. SapeBridge handles the new SFTP delivery process behind the scenes.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Is SapeBridge secure?</h3>
+                    <p>Yes. SapeBridge uses end-to-end encryption and enterprise-grade reliability to ensure your data is protected throughout the file delivery process.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How quickly can I get started?</h3>
+                    <p>Once ready, onboarding is quick and easy. You can be up and running with SapeBridge in just a few steps, without needing IT staff or server management.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Who is SapeBridge for?</h3>
+                    <p>SapeBridge is designed for travel agencies using Amadeus and AIR/IMR files who want a simple, secure solution for the new SFTP requirement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="pricing" class="feature alternate">
         <div class="container">
             <h2>Simple, Affordable Pricing</h2>
             <p>No hidden fees. No complex tiers. Just reliable service.</p>
@@ -91,6 +129,7 @@
             </div>
         </div>
     </section>
+
 
     <section id="waitlist" class="cta-section">
         <div class="container">
