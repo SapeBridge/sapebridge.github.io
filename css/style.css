@@ -232,3 +232,123 @@ footer {
     border-top: 1px solid #e6e6e6;
     color: #555;
 }
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 15px 0;
+    }
+    
+    /* Header Navigation - Stack vertically on mobile */
+    header .container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    
+    nav {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    
+    nav a {
+        margin-left: 0;
+        padding: 8px 12px;
+        background: #f4f7f6;
+        border-radius: 4px;
+        font-size: 0.9em;
+    }
+    
+    /* Hero Section */
+    .hero {
+        padding: 50px 15px;
+    }
+    
+    .hero h1 {
+        font-size: 2.2em;
+        line-height: 1.2;
+    }
+    
+    .hero .subtitle {
+        font-size: 1.1em;
+        margin: 0 auto 25px auto;
+    }
+    
+    /* Feature Sections */
+    .feature {
+        padding: 40px 15px;
+    }
+    
+    .feature h2 {
+        font-size: 2em;
+        line-height: 1.2;
+    }
+    
+    /* Feature Points - Stack vertically on mobile */
+    .feature-points {
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 30px;
+    }
+    
+    .feature-points .point {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    
+    .feature-points h3 {
+        font-size: 1.3em;
+        margin-bottom: 10px;
+    }
+    
+    /* How It Works */
+    .how-it-works {
+        margin: 30px auto 0;
+        padding: 20px;
+    }
+    
+    /* Pricing */
+    .pricing-box {
+        padding: 25px;
+        margin: 0 15px;
+        max-width: none;
+    }
+    
+    .price {
+        font-size: 2.5em;
+    }
+    
+    /* CTA Section */
+    .cta-section {
+        padding: 40px 15px;
+    }
+    
+    .cta-section h2 {
+        font-size: 2em;
+    }
+    
+    /* Form - Stack vertically on mobile */
+    #waitlist-form {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 15px;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    
+    #email-input {
+        width: 100%;
+        padding: 12px;
+        font-size: 1em;
+        box-sizing: border-box;
+    }
+    
+    .cta-button {
+        width: 100%;
+        padding: 12px;
+        font-size: 1em;
+    }
+}
