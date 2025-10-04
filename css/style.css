@@ -1,0 +1,234 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    color: #333;
+    background-color: #fdfdfd;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background: #fff;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+nav a {
+    color: #555;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+.hero {
+    background: #f4f7f6;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.hero .subtitle {
+    font-size: 1.2em;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+}
+
+.cta-button {
+    background: #007bff;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.cta-button:hover {
+    background: #0056b3;
+}
+
+.feature {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.feature.alternate {
+    background-color: #f9f9f9;
+}
+
+.feature h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.feature > .container > p {
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.feature-points {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.feature-points .point {
+    flex-basis: 30%;
+}
+
+.feature-points h3 {
+    font-size: 1.4em;
+    color: #2c3e50;
+}
+
+.how-it-works {
+    text-align: left;
+    max-width: 600px;
+    margin: 40px auto 0;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.how-it-works h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.how-it-works ol {
+    list-style: none;
+    padding-left: 0;
+}
+
+.how-it-works li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.how-it-works li span {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #007bff;
+    margin-right: 15px;
+    line-height: 1;
+}
+
+.pricing-box {
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 8px;
+    padding: 40px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.07);
+}
+
+.pricing-box h3 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+.price {
+    font-size: 3em;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.price span {
+    font-size: 0.4em;
+    font-weight: normal;
+    color: #555;
+}
+
+.pricing-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0;
+    text-align: left;
+}
+
+.pricing-box li {
+    margin-bottom: 10px;
+}
+
+.cta-section {
+    background: #2c3e50;
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.cta-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.cta-section p {
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+}
+
+#waitlist-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#email-input {
+    padding: 15px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+}
+
+#form-response {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+footer {
+    background: #f4f7f6;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #e6e6e6;
+    color: #555;
+}
